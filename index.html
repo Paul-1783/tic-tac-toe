@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="background">
+        <button class="newGame">New Game</button>
+        <div class="screen"></div>
+        <div class="gameBoard"></div>
+        <dialog class="dialogUsername">
+            <form method="dialog" id="dialogForm">
+                <p>Please enter the name of player 1:</p>
+                <input type="text" id="name1" class="player1" required>
+                <p>Please enter the name of player 2:</p>
+                <input type="text" id="name2" class="player2" required>
+                <menu>
+                    <button autofocus class="closeDialog">Close</button>
+                    <button autofocus class="submitDialog">Submit</button>
+                </menu>
+            </form>
+
+        </dialog>
+    </div>
+    <script src="actions.js"></script>
+</body>
+
+</html>
